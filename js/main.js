@@ -121,7 +121,7 @@ const lottieCheckMark = document.querySelector('.lottie-check-mark');
 
 var animation = bodymovin.loadAnimation({
   container: lottieCheckMark, // Required
-  path: '../lottie-json/liquid-checkmark-loading.json', // Required
+  path: 'lottie-json/liquid-checkmark-loading.json', // Required
   renderer: 'svg', // Required
   loop: true, // Optional
   autoplay: true, // Optional
